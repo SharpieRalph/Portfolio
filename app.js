@@ -7,8 +7,9 @@
             document.getElementById(button.dataset.id).classList.add("active");
         })
     });
-    /*
+    
+    //Toggle theme
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
-    })*/
+    })
 })();
