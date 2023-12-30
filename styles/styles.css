@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #27AE60;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -227,6 +227,7 @@ section {
 }
 
 .main-btn {
+  background-color: var(--color-primary);
   border-radius: 30px;
   color: inherit;
   font-weight: 600;
@@ -241,7 +242,7 @@ section {
   padding: 0 2rem;
 }
 .main-btn .btn-icon {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary) !important;
   display: flex;
   align-items: center;
   justify-content: center;
